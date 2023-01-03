@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@1,700&display=swap");
+
+body{    background-color: #E5E5E5;}
+.barrasuperior{background: #CF2B2B;height: 92px;
+    width: 414px; position: fixed;
+	top: 0;
+	left: 0;
+    }
+
+.barraeats{margin-left: 21px;color: #FFFFFF;
+}
+
+.de{font-family: Righteous;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 55px;}
+ 
+.sua{font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    }
+
+
+.produtos{ 
+    margin-top: 100px;
+    
+}
+
+.primeiro{font-family: Righteous;
+    font-size: 26px;
+    font-weight: 400;
+    margin-left: 19px;
+
+    }
+
+.pratos{margin-top:17px;
+    margin-left: 10px;
+display: flex;
+height: 216px;
+overflow-x: scroll;
+
+
+}
+
+.pratos > img {
+    width: 144px;
+}
+
+.borda{border-color:#32B72F;
+}
+
+.p1{
+    background: #FFFFFF;
+width: 172px; 
+display: flex;
+flex-direction: column;
+margin-left: 10px;
+border-radius: 12px;
+border-style: solid;
+border-width: 5px;
+}
+
+.p2{background: #FFFFFF;
+    width: 172px; 
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    border-radius: 12px;
+    border-style: solid;
+    border-width: 5px;}
+
+.p3{
+background: #FFFFFF;
+width: 172px; 
+display: flex;
+flex-direction: column;
+margin-left: 10px;
+border-radius: 12px;
+border-style: solid;
+border-width: 5px;
+}
+
+
+.borda{border-color:#32B72F;
+}
+
+.b1{
+    background: #FFFFFF;
+width: 172px; 
+display: flex;
+flex-direction: column;
+margin-left: 10px;
+border-radius: 12px;
+border-style: solid;
+border-width: 5px;
+}
+
+.b2{background: #FFFFFF;
+    width: 172px; 
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    border-radius: 12px;
+    border-style: solid;
+    border-width: 5px;}
+
+.b3{
+background: #FFFFFF;
+width: 172px; 
+display: flex;
+flex-direction: column;
+margin-left: 10px;
+border-radius: 12px;
+border-style: solid;
+border-width: 5px;
+}
+
+.borda2{border-color:#32B72F;
+}
+
+.borda3{border-color:#32B72F;
+}
+
+.s1{
+    background: #FFFFFF;
+    width: 172px; 
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    border-radius: 12px;
+    border-style: solid;
+    border-width: 5px;
+    }
+.s2{
+    background: #FFFFFF;
+    width: 172px; 
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    border-radius: 12px;
+    border-style: solid;
+    border-width: 5px;
+    }
+    
+
+    .s3{
+        background: #FFFFFF;
+        width: 172px; 
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        border-radius: 12px;
+        border-style: solid;
+        border-width: 5px;
+        }
+
+
+.titulo{font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;}
+    
+
+.subtitulo{font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;    
+    }
+
+.preco{font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;    
+    }
+
+ 
+
+    .bebida{font-family: Righteous;
+        font-size: 26px;
+        font-weight: 400;
+        margin-left: 19px;
+        margin-top:17px;
+    
+        }
+    
+    .bebidas{margin-top:17px;
+        margin-left: 10px;
+    display: flex;
+    height: 216px;
+    overflow-x: scroll;
+    
+    
+    }
+    
+    .bebidas > img {
+        width: 144px;
+    }
+
+    .sobremesa{font-family: Righteous;
+        font-size: 26px;
+        font-weight: 400;
+        margin-left: 19px;
+        margin-top:17px;
+    
+        }
+    
+    .pudim{margin-top:17px;
+        margin-left: 10px;
+    display: flex;
+    height: 216px;
+    margin-bottom: 100px;
+    overflow-x: scroll;
+    
+    }
+    
+    .pudim > img {
+        width: 144px;
+    }
+
+   .inferior {height: 92px;
+    width: 414px;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+	left: 0;
+    bottom: 0;
+    }
+   
+
+    .pedido button {
+        height: 53px;
+       background: #CBCBCB;
+      width: 364px;
+      border-radius: 50px;
+      font-family: Roboto;
+font-size: 20px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0.018em;
+text-align: center;
+ color: #ffffff;
+border: none;
+
+      }
+
+     
+    
+
+
+    @media (max-width: 414px) {
+    }
