@@ -1,63 +1,73 @@
-let comida;
-function verdinho(seletor){
-    const outro = document.querySelector('.borda .comida ');
-    if ( outro !==null)
-    {outro.classList.remove('borda')}
-    const botao = document.querySelector(seletor);
-    botao.classList.toggle('borda');
-
-
-    comida = botao.innerHTML;
-
-    vaifechar();
+let proteina
+function verdinho1(){
+    document.getElementById("pr1").style.borderColor = "#32B72F";
+    document.getElementById("pr2").style.borderColor = "white"; 
+    document.getElementById("pr3").style.borderColor = "white";
     
+    proteina ="op1";
+
 
 }
-let bebida ;
-function verdinho2(seletor){
-    const outro = document.querySelector('.borda2 .bebida ');
-    if ( outro !==null)
-    {outro.classList.remove('borda2')}
-    const botao = document.querySelector(seletor);
-    botao.classList.toggle('borda2');
+
+function verdinho2(){
+    document.getElementById("pr2").style.borderColor = "#32B72F";
+    document.getElementById("pr1").style.borderColor = "white"; 
+    document.getElementById("pr3").style.borderColor = "white";
+    
+    proteina ="op2";
+
+} 
 
 
-    bebida = botao.innerHTML;
+function verdinho3(){
+    document.getElementById("pr2").style.borderColor = "white"; 
+    document.getElementById("pr1").style.borderColor = "white"; 
+    document.getElementById("pr3").style.borderColor = "#32B72F"; 
+    
+    proteina ="op3";
 
-    vaifechar();
-
-
- 
-}
-let sobremesa;
-
-function verdinho3(seletor){
-    const outro = document.querySelector('.borda3 .sobremesa');
-    if ( outro !==null)
-    {outro.classList.remove('borda3')}
-    const botao = document.querySelector(seletor);
-    botao.classList.toggle('borda3');
+} 
 
 
-    sobremesa = botao.innerHTML;
+function verdinho4(){
+    document.getElementById("bb1").style.borderColor = "#32B72F";
+    document.getElementById("bb2").style.borderColor = "white"; 
+    document.getElementById("bb3").style.borderColor = "white"; 
 
-    vaifechar();
     
 }
 
+function verdinho5(){
+    document.getElementById("bb1").style.borderColor = "white"; 
+    document.getElementById("bb2").style.borderColor = "#32B72F";
+    document.getElementById("bb3").style.borderColor = "white";      
+} 
 
-function vaifechar(){
 
+function verdinho6(){
+    document.getElementById("bb1").style.borderColor = "white"; 
+    document.getElementById("bb2").style.borderColor = "white"; 
+    document.getElementById("bb3").style.borderColor = "#32B72F";
+} 
 
-    if ( comida !== undefined){
-        if ( bebida !== undefined){
-            if ( sobremesa !== undefined){
-                const botao = document.querySelector('.continuar');
-                botao.innerHTML = "Fechar pedido" ;
-        }
-    }
-
-}
-}
+function verdinho7(){
+    document.getElementById("sb1").style.borderColor = "#32B72F";
+    document.getElementById("sb2").style.borderColor = "white"; 
+    document.getElementById("sb3").style.borderColor = "white"; 
 
     
+}
+
+function verdinho8(){
+    document.getElementById("sb1").style.borderColor = "white"; 
+    document.getElementById("sb2").style.borderColor = "#32B72F";
+    document.getElementById("sb3").style.borderColor = "white";      
+} 
+
+
+function verdinho9(){
+    document.getElementById("sb1").style.borderColor = "white"; 
+    document.getElementById("sb2").style.borderColor = "white"; 
+    document.getElementById("sb3").style.borderColor = "#32B72F";
+} 
+

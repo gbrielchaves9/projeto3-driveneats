@@ -32,7 +32,6 @@ body{    background-color: #E5E5E5;}
     font-size: 26px;
     font-weight: 400;
     margin-left: 19px;
-
     }
 
 .pratos{margin-top:17px;
@@ -40,8 +39,6 @@ body{    background-color: #E5E5E5;}
 display: flex;
 height: 216px;
 overflow-x: scroll;
-
-
 }
 
 .pratos > img {
@@ -60,6 +57,7 @@ margin-left: 10px;
 border-radius: 12px;
 border-style: solid;
 border-width: 5px;
+border-color: white;
 }
 
 .p2{background: #FFFFFF;
@@ -69,7 +67,9 @@ border-width: 5px;
     margin-left: 10px;
     border-radius: 12px;
     border-style: solid;
-    border-width: 5px;}
+    border-width: 5px;
+    border-color: white;
+}
 
 .p3{
 background: #FFFFFF;
@@ -80,6 +80,7 @@ margin-left: 10px;
 border-radius: 12px;
 border-style: solid;
 border-width: 5px;
+border-color: white;
 }
 
 
@@ -95,6 +96,7 @@ margin-left: 10px;
 border-radius: 12px;
 border-style: solid;
 border-width: 5px;
+border-color: white;
 }
 
 .b2{background: #FFFFFF;
@@ -104,7 +106,8 @@ border-width: 5px;
     margin-left: 10px;
     border-radius: 12px;
     border-style: solid;
-    border-width: 5px;}
+    border-width: 5px;
+    border-color: white;}
 
 .b3{
 background: #FFFFFF;
@@ -115,6 +118,7 @@ margin-left: 10px;
 border-radius: 12px;
 border-style: solid;
 border-width: 5px;
+border-color: white;
 }
 
 .borda2{border-color:#32B72F;
@@ -132,6 +136,7 @@ border-width: 5px;
     border-radius: 12px;
     border-style: solid;
     border-width: 5px;
+    border-color: white;
     }
 .s2{
     background: #FFFFFF;
@@ -142,6 +147,7 @@ border-width: 5px;
     border-radius: 12px;
     border-style: solid;
     border-width: 5px;
+    border-color: white;
     }
     
 
@@ -154,6 +160,7 @@ border-width: 5px;
         border-radius: 12px;
         border-style: solid;
         border-width: 5px;
+        border-color: white;
         }
 
 
@@ -188,7 +195,6 @@ border-width: 5px;
         font-weight: 400;
         margin-left: 19px;
         margin-top:17px;
-    
         }
     
     .bebidas{margin-top:17px;
@@ -250,7 +256,6 @@ letter-spacing: 0.018em;
 text-align: center;
  color: #ffffff;
 border: none;
-
       }
 
      
