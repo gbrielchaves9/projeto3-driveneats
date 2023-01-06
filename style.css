@@ -124,8 +124,7 @@ border-color: white;
 .borda2{border-color:#32B72F;
 }
 
-.borda3{border-color:#32B72F;
-}
+
 
 .s1{
     background: #FFFFFF;
@@ -163,6 +162,8 @@ border-color: white;
         border-color: white;
         }
 
+        .borda3{border-color:#32B72F;
+        }
 
 .titulo{font-family: Roboto;
     font-size: 16px;

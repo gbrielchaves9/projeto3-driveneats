@@ -1,73 +1,29 @@
-let proteina
-function verdinho1(){
-    document.getElementById("pr1").style.borderColor = "#32B72F";
-    document.getElementById("pr2").style.borderColor = "white"; 
-    document.getElementById("pr3").style.borderColor = "white";
-    
-    proteina ="op1";
 
+function verdinho(primeiro){
+    const p1 = document.querySelector('.borda');
+    if ( p1 !== null)
+    {p1.classList.toggle('borda')}
+    primeiro.classList.add('borda')
 
 }
 
-function verdinho2(){
-    document.getElementById("pr2").style.borderColor = "#32B72F";
-    document.getElementById("pr1").style.borderColor = "white"; 
-    document.getElementById("pr3").style.borderColor = "white";
-    
-    proteina ="op2";
 
-} 
+function esse(segundo){
+    const b1 = document.querySelector('.borda2 ');
+    if ( b1 !== null)
+    {b1.classList.toggle('borda2')}
+    segundo.classList.add('borda2')
 
-
-function verdinho3(){
-    document.getElementById("pr2").style.borderColor = "white"; 
-    document.getElementById("pr1").style.borderColor = "white"; 
-    document.getElementById("pr3").style.borderColor = "#32B72F"; 
-    
-    proteina ="op3";
-
-} 
-
-
-function verdinho4(){
-    document.getElementById("bb1").style.borderColor = "#32B72F";
-    document.getElementById("bb2").style.borderColor = "white"; 
-    document.getElementById("bb3").style.borderColor = "white"; 
-
-    
 }
 
-function verdinho5(){
-    document.getElementById("bb1").style.borderColor = "white"; 
-    document.getElementById("bb2").style.borderColor = "#32B72F";
-    document.getElementById("bb3").style.borderColor = "white";      
-} 
-
-
-function verdinho6(){
-    document.getElementById("bb1").style.borderColor = "white"; 
-    document.getElementById("bb2").style.borderColor = "white"; 
-    document.getElementById("bb3").style.borderColor = "#32B72F";
-} 
-
-function verdinho7(){
-    document.getElementById("sb1").style.borderColor = "#32B72F";
-    document.getElementById("sb2").style.borderColor = "white"; 
-    document.getElementById("sb3").style.borderColor = "white"; 
+function doce (ultimo){
+    const s1 = document.querySelector('.borda3 ');
+    if ( s1 !== null)
+    {s1.classList.toggle('borda3')}
+    ultimo.classList.add('borda3')
 
     
+
 }
 
-function verdinho8(){
-    document.getElementById("sb1").style.borderColor = "white"; 
-    document.getElementById("sb2").style.borderColor = "#32B72F";
-    document.getElementById("sb3").style.borderColor = "white";      
-} 
-
-
-function verdinho9(){
-    document.getElementById("sb1").style.borderColor = "white"; 
-    document.getElementById("sb2").style.borderColor = "white"; 
-    document.getElementById("sb3").style.borderColor = "#32B72F";
-} 
 
