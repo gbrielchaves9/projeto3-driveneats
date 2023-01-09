@@ -13,6 +13,7 @@ function verdinho(seletor){
     
 
 }
+
 let bebida ;
 function verdinho2(seletor){
     const outro = document.querySelector('.borda2 .bebida ');
@@ -147,6 +148,54 @@ function verdinho9(){
 } 
 
 
+let p1;
+function verdinho(primeiro){
+    const p1 = document.querySelector('.borda');
+    if ( p1 !== null)
+    {p1.classList.toggle('borda')}
+    primeiro.classList.add('borda')
 
+    p1 = primeiroinnerHTML;
+     fechamento()
+
+}
+let b1 ;
+
+function esse(segundo){
+    const b1 = document.querySelector('.borda2 ');
+    if ( b1 !== null)
+    {b1.classList.toggle('borda2')}
+    segundo.classList.add('borda2')
+
+
+    fechamento()
+
+}
+let s1
+
+function doce (ultimo){
+    const s1 = document.querySelector('.borda3 ');
+    if ( s1 !== null)
+    {s1.classList.toggle('borda3')}
+    ultimo.classList.add('borda3')
+
+   
+
+    fechamento()
+}
+
+
+function fechamento(){
+   
+    if ( p1!== undefined){
+        if ( b1 !== undefined){
+            if ( s1 !== undefined){
+                const botao = document.querySelector('.continuar');
+                botao.innerHTML = "Fechar pedido" ;
+        }
+    }
+
+}
+}
 
     
