@@ -57,10 +57,6 @@ border-radius: 4px;
     
 
 
-
-.borda{border-color:#32B72F;
-}
-
 .p1{
     background: #FFFFFF;
 width: 172px; 
@@ -134,7 +130,8 @@ border-width: 5px;
 border-color: white;
 }
 
-.borda{border-color:#32B72F;
+
+.borda2{border-color:#32B72F;
 }
 
 
@@ -177,7 +174,7 @@ border-color: white;
 
         .borda3{border-color:#32B72F;
         }
-
+        
 .titulo{font-family: Roboto;
     font-size: 16px;
     font-weight: 700;

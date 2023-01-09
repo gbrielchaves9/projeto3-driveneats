@@ -155,8 +155,7 @@ function verdinho(primeiro){
     {p1.classList.toggle('borda')}
     primeiro.classList.add('borda')
 
-    p1 = primeiroinnerHTML;
-     fechamento()
+  
 
 }
 let b1 ;
@@ -199,3 +198,50 @@ function fechamento(){
 }
 
     
+
+
+
+
+
+function verdinho(primeiro){
+    const p1 = document.querySelector('.borda');
+     if ( p1 !== null){
+     p1.classList.remove('borda')
+     }
+ 
+     primeiro.classList.add('borda')
+ 
+ }
+
+ const nome = document.getElementById('res')
+
+
+
+
+ function verdinho(primeiro,queroesse){
+    const p1 = document.querySelector('.pratos .borda');
+    if ( p1 !== null)
+    {p1.classList.toggle('borda')}
+
+
+    primeiro.classList.add('borda')
+
+     // pegar o titulo do prato
+     const elementoTitulo = document.querySelector(queroesse+' .titulo');
+  
+     // pegar o texto que esta no elemento
+ 
+     pegaprato= elementoTitulo.innerHTML;
+   
+   
+  
+
+    vaifechar()
+
+}
+
+const outro = document.querySelector('.borda .comida ');
+    if ( outro !==null)
+    {outro.classList.remove('borda')}
+    const botao = document.querySelector(seletor);
+    botao.classList.toggle('borda')
