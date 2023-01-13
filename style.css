@@ -34,7 +34,7 @@ body{    background-color: #E5E5E5;}
     margin-left: 19px;
     }
 
-.pratos{margin-top:17px;
+.proteinasfrango{margin-top:17px;
     margin-left: 10px;
 display: flex;
 height: 216px;
@@ -51,8 +51,6 @@ overflow-x: scroll;
         width: 144px;
         height: 87px;
 border-radius: 4px;
-
-
     }
     
 
@@ -269,9 +267,54 @@ text-align: center;
 border: none;
       }
 
-     
+      .botao{
+        background-color: rgba(203, 203, 203, 1);
+        width: 90%;
+        height: 60px;
+        margin-left: 20px;
+        border-radius: 50px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+    }
+    .botao p{
+        margin-top: 8px;
+        width: 170px;
+        height: 53px;
+        font-weight: 400;
+       font-size: 20px;
+        color: 
+        rgba(255, 255, 255, 1);
+    }
+
+    .selecionado-botao{
+        background-color:rgba(50, 183, 47, 1); 
+        width: 90%;
+        height: 60px;
+        margin-left: 20px;
+        border-radius: 50px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+    }
+    .selecionado-botao p{
+        width: 170px;
+        height: 53px;
+        font-weight: 400;
+       font-size: 25px;
+        color: 
+        rgba(255, 255, 255, 1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top:0px;
+    }
+
+    
     
 
 
     @media (max-width: 414px) {
     }
+
+    
