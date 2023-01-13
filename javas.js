@@ -42,44 +42,38 @@ function vaifechar(){
          textobotao.innerHTML = 'Fechar pedido';
     } 
   }  
-  let precoPrato = 0;
-  let precoBebida = 0;
-  let precoDoces = 0;
-  let valorfinal = 0; 
-  let precofinal = 0;
-  let msgfinal = "";
+  let pp = 0;
+  let bb1 = 0;
+  let pud1= 0;
+  let somatudo= 0; 
+  let vaimeufilho = 0;
+  let aspas = "";
 
-  function meuPedido(){
-    let valorPrato = document.querySelector(".proteinasfrango .borda  .preco p");
-    let  valorBebida = document.querySelector(".bebidas .borda2 .preco p"); 
-    let  valorDoce = document.querySelector(".pudim .borda3 .preco p");
+  function agorafecha(){
+    let  p1  = document.querySelector(".proteinasfrango .borda  .preco p");
+    p1 = p1 .innerHTML;
+    pp= Number (p1);
+    let pegatitulo1 = document.querySelector(".proteinasfrango .borda h1").innerHTML;
 
+    let  p2 = document.querySelector(".bebidas .borda2 .preco p"); 
+    p2= p2.innerHTML;
+    bb1 = Number (p2); 
+    let pegabebida1 = document.querySelector(".bebidas .borda2 h1").innerHTML;
 
-    let pedidoPrato = document.querySelector(".proteinasfrango .borda h1").innerHTML;
-    let pedidoBebida = document.querySelector(".bebidas .borda2 h1").innerHTML;
-    let pedidoDoce = document.querySelector(".pudim .borda3 h1").innerHTML;
+    let  p3= document.querySelector(".pudim .borda3 .preco p");
+    p3= p3.innerHTML;
+    pud1 = Number (p3); 
+    let pedapudim  = document.querySelector(".pudim .borda3 h1").innerHTML;
+
+    somatudo = Number(pp) + Number(bb1) + Number(pud1)
+    vaimeufilho = somatudo.toFixed(2);
+    return encodeURIComponent(`Olá, gostaria de fazer o pedido:- Prato: ${pegatitulo1} - Bebida: ${pegabebida1}  - Sobremesa: ${pedapudim}
+    Total: R$ ${somatudo}`);
     
-    valorPrato = valorPrato.innerHTML;
-    precoPrato = Number (valorPrato);
-
-    valorBebida = valorBebida.innerHTML;
-    precoBebida = Number (valorBebida); 
-
-    valorDoce = valorDoce.innerHTML;
-    precoDoces = Number (valorDoce); 
-
-    valorfinal = (precoPrato + precoBebida + precoDoces);
-    precofinal = valorfinal.toFixed(2);
-
-    return encodeURIComponent(`Olá, gostaria de fazer o pedido:\n
-    - Prato: ${pedidoPrato} \n
-    - Bebida: ${pedidoBebida} \n
-    - Sobremesa: ${pedidoDoce}\n
-    Total: R$ ${precofinal}`);
 }
 
-function enviamsg() {
-let texto = meuPedido();
+function clique() {
+let ultima= agorafecha();
 
-window.open(`https://api.whatsapp.com/send?phone=5521999999999&text=${texto}`);
+window.open(`https://api.whatsapp.com/send?phone=5521999999999&text=${ultima}`);
 }
