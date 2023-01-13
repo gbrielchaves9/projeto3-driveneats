@@ -173,6 +173,7 @@ border-color: white;
         .borda3{border-color:#32B72F;
         }
         
+   
 .titulo{font-family: Roboto;
     font-size: 16px;
     font-weight: 700;
@@ -240,16 +241,7 @@ border-color: white;
         width: 144px;
     }
 
-   .inferior {height: 92px;
-    width: 414px;
-    background: #FFFFFF;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-	left: 0;
-    bottom: 0;
-    }
+  
    
 
     .pedido button {
@@ -267,9 +259,21 @@ text-align: center;
 border: none;
       }
 
-      .botao{
+      .inferior{
+        height: 92px;
+        width: 414px;
+        background: #FFFFFF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+    }
+
+      .continuar{
         background-color: rgba(203, 203, 203, 1);
-        width: 90%;
+        width: 414px;
         height: 60px;
         margin-left: 20px;
         border-radius: 50px;
@@ -277,7 +281,7 @@ border: none;
         display: flex;
         justify-content: center;
     }
-    .botao p{
+    .continuar p{
         margin-top: 8px;
         width: 170px;
         height: 53px;
@@ -287,9 +291,9 @@ border: none;
         rgba(255, 255, 255, 1);
     }
 
-    .selecionado-botao{
+    .mudaDecor{
         background-color:rgba(50, 183, 47, 1); 
-        width: 90%;
+        width: 414px;
         height: 60px;
         margin-left: 20px;
         border-radius: 50px;
@@ -297,11 +301,14 @@ border: none;
         display: flex;
         justify-content: center;
     }
-    .selecionado-botao p{
+    .mudaDecor p{
         width: 170px;
         height: 53px;
+        font-family: Roboto;
+        font-size: 20px;
         font-weight: 400;
-       font-size: 25px;
+        line-height: 23px;
+        letter-spacing: 0.018em;
         color: 
         rgba(255, 255, 255, 1);
         display: flex;
@@ -309,7 +316,7 @@ border: none;
         align-items: center;
         margin-top:0px;
     }
-
+    
     
     
 

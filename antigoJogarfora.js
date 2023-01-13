@@ -200,7 +200,9 @@ function fechamento(){
     
 
 
-
+let pedidoPrato = document.querySelector(".proteinasfrango .borda h4").innerHTML;
+let pedidoBebida = document.querySelector(".bebidas .borda2  h4").innerHTML;
+let pedidoDoce = document.querySelector(".pudim .borda3 h4").innerHTML;
 
 
 function verdinho(primeiro){
@@ -245,3 +247,14 @@ const outro = document.querySelector('.borda .comida ');
     {outro.classList.remove('borda')}
     const botao = document.querySelector(seletor);
     botao.classList.toggle('borda')
+
+
+
+    let valorPrato = document.querySelector(".proteinasfrango .borda  .preco p");
+    let  valorBebida = document.querySelector(".bebidas .borda2 .preco p"); 
+    let  valorDoce = document.querySelector(".pudim .borda3 .preco p");
+
+    let pedidoPrato = document.querySelector(".pratos .selecionado h1").innerHTML;
+    let pedidoBebida = document.querySelector(".bebidas .selecionado h1").innerHTML;
+    let pedidoDoce = document.querySelector(".doces .selecionado h1").innerHTML;
+    
